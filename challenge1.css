@@ -1,0 +1,74 @@
+            body {
+                background-color: rgb(32, 34, 34);
+            }
+            
+            #heading {
+                text-align: center;
+                font-size: 70px;
+                text-shadow: 3px 0 #DA0463;
+                font-family: "Arvo", cursive;
+            }
+            
+            .drum {
+                text-align: center;
+                align-items: center;
+                display: inline-block;
+                margin: 30px;
+                height: 50px;
+                width: 80px;
+                border-radius: 20%;
+                border: 3px solid red;
+                position: relative;
+                left: 240px;
+                top: 100px;
+                font-family: "Arvo", cursive;
+            }
+            
+            footer {
+                color: black;
+                text-align: center;
+                margin-top: 140px;
+                text-shadow: 2px 0 red;
+            }
+            
+            #but1 {
+                background-image: url(images/tom1.png);
+                font-size: 20px;
+            }
+            
+            #but2 {
+                background-image: url(images/tom2.png);
+                font-size: 20px;
+            }
+            
+            #but3 {
+                background-image: url(images/crash.png);
+                font-size: 20px;
+            }
+            
+            #but4 {
+                background-image: url(images/tom4.png);
+                font-size: 20px;
+            }
+            
+            #but5 {
+                background-image: url(images/kick.png);
+                font-size: 20px;
+            }
+            
+            #but6 {
+                background-image: url(images/tom3.png);
+                font-size: 20px;
+            }
+            
+            #but7 {
+                background-image: url(images/snare.png);
+                font-size: 20px;
+            }
+            
+            @media (min-width:1500px) {
+                #container {
+                    position: relative;
+                    left: 0px;
+                }
+            }
